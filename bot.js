@@ -8,7 +8,8 @@ const ticket = require('./models/ticket');
 const createTicket = require('./cmds/createTicket')
 const mongoose = require('mongoose');
 const fs = require('fs');
-const urlMongo = `mongodb+srv://Turki:dDeDNnF99WyNkkeo@cluster0.mqux4.mongodb.net/Turki?retryWrites=true&w=majority`;//Mongodb
+const urlMongo = `mongodb+srv://Tiketcolo:77CCRR@@RRtoolTK@cluster0.aw92h.mongodb.net/Tiketcolo ?retryWrites=true&w=majority
+`;//Mongodb
 client.on('ready', () => {
 console.log(`Online`);
 });
@@ -139,4 +140,4 @@ client.on('messageReactionAdd', async(reaction, user) => {
 }
 })
 
-client.login('NzU3NTk5NjIxOTgyNzE1OTE1.X2ivoQ.FGG7F_TzZCD2bhfH0YoibqAi2gI');/// توكن
+client.login('Nzc1OTQ3ODQ5NjQwMzEyODUy.X6tvvw.jREK0zHTANS1luu77IYvEJq36FI');/// توكن
